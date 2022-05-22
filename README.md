@@ -15,6 +15,6 @@ Ezequiel Quispe | ezequiel.q168@gmail.com<br>|
 Cesar Santiago Andrés Conde | cesarsantiagoconde@gmail.com|
 
 # Sistema Elegido 
-Se quiere desarrollar una base de datos para una __empresa IT__.
+Se quiere desarrollar una base de datos para una __empresa reparación técnica__.
 
 
