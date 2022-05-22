@@ -1,0 +1,55 @@
+Sociedad it.
+
+Proyecto por area
+	redes.
+	desarrollo.
+	infraestrutura.
+
+---
+Sistema técnico
+
+ Si vende  o  solo es técnico<br>
+[ x ] Solo técnico<br>
+[  ] Vende
+ 
+# Relevamiento
+Una empresa reparadora de celulares y computadoras nececita una base de datos<br>
+El cliente consulta la reparación del dispositivo que lleva en caso de poder repararlo el receptor le hace una factura, y le comunica al tecnico que hay un nuevo dispositivo a reparar, cada mes hay control de los productos que consume el tecnico,en caso de nececitar reparación se los compra a un proveedor.<br>El tecnico informa cuando no hay stock de materiales, para comprarle al proveedor.
+La factura se puede cobrar por efectivo, tarjeta, tranferencias.
+
+/No *** El cliente puede comprar productos. que hay en tienda.  ***/
+
+
+# Analisis de Requisitos
+
+
+## Entidades
+Cliente
+Tecnico
+Proveedor
+Producto
+Equipo
+MetodoPago
+## Relación 
+Cliente __consulta__ Tecnico<br>
+Cliente __tiene__ Equipo<br>
+Cliente __paga__ MetodoPago<br>
+Tecnico __compra__ Proveedor<br>
+Tecnico __tiene__ Producto<br>
+Tecnico __repara__ Equipo
+ 
+ 
+## Atributos
+
+### Cliente
+
+### Tecnico
+
+### Producto
+
+### Equipo
+
+
+---
+# Dudas
+
