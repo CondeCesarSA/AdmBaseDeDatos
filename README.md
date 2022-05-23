@@ -16,3 +16,8 @@ Cesar Santiago Andrés Conde | cesarsantiagoconde@gmail.com|
 
 # Sistema Elegido 
 Se quiere desarrollar una base de datos para una __empresa reparación técnica__.
+
+# Relevamiento
+Una empresa reparadora de celulares y computadoras nececita una base de datos<br>
+El cliente consulta la reparación del dispositivo que lleva en caso de poder repararlo el receptor le hace una factura, y le comunica al tecnico que hay un nuevo dispositivo a reparar, cada mes hay control de los productos que consume el tecnico,en caso de nececitar reparación se los compra a un proveedor.<br>El tecnico informa cuando no hay stock de materiales, para comprarle al proveedor.
+La factura se puede cobrar por efectivo, tarjeta, tranferencias.
