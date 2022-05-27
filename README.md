@@ -30,7 +30,7 @@ El análisis del sistema nos sirve para hacer el análisis de requerimientos par
 
 # ER
 Diagramamos nuestro diagrama Entidad-Relación de acuerdo al análisis de requerimientos.
-![diagramaER](./diseño/diagramaER.png)
+![diagramaER](./diseñoER/diagramaER.png)
 
 # MER
 Diagramamos el Modelo de Entidad-Relación, y normalizamos hasta __3FN__ 
