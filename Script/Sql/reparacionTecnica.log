@@ -1,0 +1,44 @@
+ER/Studio Generate Database Facility Messages
+ 
+Script: D:\Desarrollo de 
+   Software\admBaseDeDatos\proyectoAdmBaseDeDatosTecnico\Script\Sql\reparacionTecnica.sql
+ 
+Date/Time: 05/29/22 22:19:35
+--------------------------------------------------------
+
+Generating Dependencies ...
+   Dependency Sql
+
+Generating Tables ...
+
+Generating Views ...
+
+Generating Indexes ...
+
+Generating Foreign Keys ...
+   barrio
+   Cliente
+   comuna
+   direccion
+   equipo
+   login
+   metodoPago
+   nivelDeAcceso
+   pagos
+   productos
+   proveedor
+   tecnico
+   tecReparaEquipo
+   tiCliEquipo
+   tipoDispositivo
+   tipoPago
+   tiTecPro
+   TiTecProv
+
+Generating Model Post SQL ...
+   Model Post Sql
+Ending time: 05/29/22 22:19:35
+ 
+ 
+Code Generation Complete
+ 
