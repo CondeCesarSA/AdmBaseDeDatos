@@ -1,6 +1,3 @@
---
--- ER/Studio 8.0 SQL Code Generation
--- Company :      nine
 -- Project :      ModeloRelacional.DM1
 -- Author :       ccsavlad
 --
