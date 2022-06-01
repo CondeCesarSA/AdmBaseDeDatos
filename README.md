@@ -38,4 +38,4 @@ Diagramamos el Modelo de Entidad-Relación, y normalizamos hasta __3FN__
 
 
 # Diccionario de datos
-(./DD/DD.md)
+![Diccionario de datos](./DD/DD.md)
