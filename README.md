@@ -35,3 +35,7 @@ Diagramamos nuestro diagrama Entidad-Relación de acuerdo al análisis de requer
 # MER
 Diagramamos el Modelo de Entidad-Relación, y normalizamos hasta __3FN__ 
 ![modeloEntidadRelacion](./diseñoER/ModeloRelacional3raFormaNormal.jpg)
+
+
+# Diccionario de datos
+(./DD/DD.md
