@@ -3,9 +3,9 @@ Proyecto para la materia AdmBaseDeDatos
 
 
 # Objetivos 
-Poder analizar un proyecto real y llevarlo a práctica con un diagrama base de datos con lo visto en clases.
-Pensar diferentes manereas de resolver el probelma y darle un enfoque práctico.
-Investigar, trabajar en equipo, distribuir tareas.
+- Poder analizar un proyecto real y llevarlo a práctica con un diagrama base de datos con lo visto en clases.
+- Pensar diferentes manereas de resolver el probelma y darle un enfoque práctico.
+- Investigar, trabajar en equipo, distribuir tareas.
 
 ## Alumnos
 Grupo 02<br>
