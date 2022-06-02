@@ -39,3 +39,5 @@ Diagramamos el Modelo de Entidad-Relación, y normalizamos hasta __3FN__
 
 # Diccionario de datos
 ![Diccionario de datos](./DD/DD.md)
+# Scrip de sql
+![ScripSql](./Script/Sql/reparacionTecnica.sql)
