@@ -41,3 +41,25 @@ Diagramamos el Modelo de Entidad-Relación, y normalizamos hasta __3FN__
 ![Diccionario de datos](./DD/DD.md)
 # Scrip de sql
 ![ScripSql](./Script/Sql/reparacionTecnica.sql)
+
+# Frond end 
+Se diseño  el login.<br>
+![login]()
+Se diseño Dashboard Lista <br>
+![dashboard]()
+Se diseño el Dashboard Kanban<br>
+![dashboardKanban]()
+Se diseño la configuración<br>
+![paginaconf]()
+Se diseñaron las ordnenes <br>
+![ordenes]()
+Se diseño  el login movile<br>
+![movileLogin]()
+Se diseño Dashboard Lista movile<br>
+![movileDasboard]()
+Se diseño el Dashboard Kanban movile<br>
+![movileDashboardKanban]
+Se diseño la configuración movile<br>
+![]
+Se diseñaron las ordnenes movile<br>
+
