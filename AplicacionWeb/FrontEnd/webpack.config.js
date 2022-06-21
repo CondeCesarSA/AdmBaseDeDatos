@@ -1,5 +1,8 @@
 const path = require('path');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const LinkTypePlugin = require('html-webpack-link-type-plugin').HtmlWebpackLinkTypePlugin;
+const webpack = require("webpack");
 
 module.exports = {
 
@@ -11,9 +14,31 @@ module.exports = {
         publicPath: '/'
     },
 
+    resolve: {
+        fallback: {
+            process: require.resolve("process/browser"),
+            zlib: require.resolve("browserify-zlib"),
+            stream: require.resolve("stream-browserify"),
+            util: require.resolve("util"),
+            buffer: require.resolve("buffer"),
+            assert: require.resolve("assert"),
+        }
+    },
+
     plugins: [
+        new webpack.ProvidePlugin({
+            Buffer: ["buffer", "Buffer"],
+            process: "process/browser",
+        }),
         new HTMLWebpackPlugin({
-            template: './src/index.html'
+            template: './public/index.html',
+            filename: 'index.html'
+        }),
+        new MiniCssExtractPlugin({
+            filename: './src/index.css',
+        }),
+        new LinkTypePlugin({
+          '*.css' : 'text/css'
         })
     ],
 
@@ -28,6 +53,10 @@ module.exports = {
                         presets: ['@babel/preset-env', '@babel/preset-react']
                     }
                 }
+            },
+            {
+                test: /\.css$/,
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.(png|svg|jpe?g|gif)$/,

@@ -1,0 +1,35 @@
+{
+    "test":{
+        "nombre": "Test",
+        "apellido": "Test",
+        "fechaNacimiento": "1990-02-24T00:00:00",
+        "email": "test@test.com",
+        "telefono": "1132324903",
+        "fechaIngreso": "2019-04-22T00:00:00",
+        "cuil": "21-41233991-0",
+        "direccion": "calle falsa 123",
+        "accessLevel": 0
+    },
+    "user":{
+        "nombre": "User",
+        "apellido": "User",
+        "fechaNacimiento": "1989-09-10T00:00:00",
+        "email": "user@user.com",
+        "telefono": "1113324990",
+        "fechaIngreso": "2020-02-13T00:00:00",
+        "cuil": "20-42239091-0",
+        "direccion": "calle falsa 123",
+        "accessLevel": 1
+    },
+    "admin":{
+        "nombre": "Admin",
+        "apellido": "Admin",
+        "fechaNacimiento": "1994-12-23T00:00:00",
+        "email": "admin@admin.com",
+        "telefono": "1132903318",
+        "fechaIngreso": "2020-01-04T00:00:00",
+        "cuil": "20-39212390-0",
+        "direccion": "calle falsa 123",
+        "accessLevel": 2
+    }
+}

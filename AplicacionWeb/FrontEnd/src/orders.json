@@ -1,0 +1,39 @@
+{
+    "orders":[
+        {
+            "id": "1",
+            "tecnico": "Cesar", 
+            "equipo": "Samsung S20+", 
+            "descripcion": "Sin descripcion",
+            "estado": "TO DO"
+        },
+        {
+            "id": "2",
+            "tecnico": "Ezequiel", 
+            "equipo": "Pc linux", 
+            "descripcion": "Formatear",
+            "estado": "DONE"
+        },
+        {
+            "id": "3",
+            "tecnico": "Paula", 
+            "equipo": "Macbook", 
+            "descripcion": "instalar android",
+            "estado": "IN PROGRESS"
+        },
+        {
+            "id": "4",
+            "tecnico": "Alberto", 
+            "equipo": "samsung j2", 
+            "descripcion": "pantalla rota",
+            "estado": "IN PROGRESS"
+        },
+        {
+            "id": "5",
+            "tecnico": "Gonzalo", 
+            "equipo": "Notebook Lenovo", 
+            "descripcion": "Sin descripcion",
+            "estado": "TO DO"
+        }
+    ]
+}
