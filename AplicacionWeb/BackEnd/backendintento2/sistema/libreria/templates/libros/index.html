@@ -23,31 +23,31 @@
           <th></th>
         </tr>
       </thead>
+
+      {% for libro in libros %}
       <tbody>
         <tr>
-          <td scope="row">1</td>
-          <td>Django con Python</td>
-          <td>imagen.jpg</td>
-          <td>Libros habla sobre el framework de django</td>
+          <td scope="row">{{ libro.id }}</td>
+          <td>{{ libro.titulo}}</td>
+          <td>
+            <img src="{{ libro.imagen.url }}" height="100" >
+            </td>
+          <td>{{ libro.description}}</td>
           <td>
             <a
               name=""
               id=""
               class="btn btn-info"
-              href="{%url 'editar'%}"
+              href="{%url 'editar' libro.id%}"
               role="button"
               >Editar</a
             >
-            <a name="" id="" class="btn btn-danger" href="#" role="button"
+            <a name="" id="" class="btn btn-danger" href="{% url 'eliminar' libro.id%}" role="button"
               >Borrar</a
             >
           </td>
         </tr>
-        <tr>
-          <td scope="row"></td>
-          <td></td>
-          <td></td>
-        </tr>
+        {% endfor %}
       </tbody>
     </table>
   </div>
